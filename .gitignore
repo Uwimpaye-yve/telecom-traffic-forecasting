@@ -1,0 +1,17 @@
+# Ignore raw & intermediate heavy datasets
+data/raw/
+data/processed/
+*.txt
+*.csv
+*.parquet
+*.h5
+
+# Python virtual environment & cache
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# System / OS files
+.DS_Store
+Thumbs.db
